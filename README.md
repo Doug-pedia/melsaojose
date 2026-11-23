@@ -55,3 +55,9 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Regras para novas fotos: JPG até ~120 KB cada, largura máxima 1000 px para fotos grandes (topo/trajetória) e 600 px para produtos.
 - Erros 404 no console do navegador vêm das fotos que ainda não foram enviadas (sobre, trajetória, pólen, logo) e somem quando elas forem adicionadas.
 - "Ciclos de vida de cache" do Lighthouse não dá para alterar no GitHub Pages (o cache é de 10 min). Seria preciso um CDN, como o Cloudflare.
+
+
+## V2.4 — Fotos originais dos produtos
+- Substituídas as fotos recortadas do catálogo pelas fotos originais: Mel Silvestre (1 kg), Flor da Laranjeira (1 kg), Melato de Cana (500 g), Jataí (200 g) e Extrato Aquoso de Própolis.
+- Imagens recortadas automaticamente (sem margem branca), redimensionadas para 640 px de altura e comprimidas (~30–45 KB cada).
+- Ainda são recortes do catálogo: própolis marrom, própolis verde, spray e composto. Pólen e logo seguem pendentes.

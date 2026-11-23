@@ -1,4 +1,4 @@
-/* Site Mel São José - style.css V2.3 */
+/* Site Mel São José - style.css V2.4 */
 :root{
   --ambar:#C98A1B; --ambar-btn:#9A6508; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
   --creme:#FFF8E7; --marrom:#3B2A12; --texto:#4A3A24; --branco:#fff;
@@ -94,9 +94,9 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px}
 .card{background:#fff;border-radius:var(--raio);padding:0 0 22px;box-shadow:var(--sombra);display:flex;flex-direction:column;align-items:flex-start;gap:8px;overflow:hidden;transition:.25s}
 .card:hover{transform:translateY(-6px);box-shadow:var(--sombra-forte)}
-.card .foto-card{width:100%;border-radius:0;box-shadow:none;margin-bottom:8px;min-height:240px;background:radial-gradient(circle at 50% 40%,#fff 0%,#FFF3D0 100%)}
+.card .foto-card{width:100%;border-radius:0;box-shadow:none;margin-bottom:8px;min-height:280px;background:radial-gradient(circle at 50% 40%,#fff 0%,#FFF3D0 100%)}
 .card .foto-card::before{opacity:.45}
-.card .foto-card img{object-fit:contain;max-height:240px;padding:12px;mix-blend-mode:multiply}
+.card .foto-card img{object-fit:contain;max-height:280px;padding:12px;mix-blend-mode:multiply}
 .card h3,.card p,.card .chips,.card .btn{margin-left:22px;margin-right:22px}
 .card h3{font-size:1.2rem}
 .card p{flex:1;font-size:.96rem;margin-bottom:4px}

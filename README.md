@@ -69,3 +69,8 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 
 ## V2.6 — Localização
 - O card de endereço em Contato agora abre a ficha da empresa no Google Maps (Mel São José), em vez de uma busca pelo endereço.
+
+## V2.7 — Logo
+- Logo oficial adicionada em `assets/logo.png` (360 px de largura, 13 KB) e exibida no topo ao lado do nome, nas páginas inicial, de privacidade e 404.
+- Ícone da aba (`assets/favicon.png`, 256x256) agora usa a logo, no lugar do emoji provisório.
+- Altura da logo no cabeçalho de 44 para 52 px, para ficar legível.

@@ -90,6 +90,12 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 ## V2.10 — Hero com o Melato novo
 - `hero.jpg` refeito com a foto atual do Mel de Melato (tampa vermelha), mantendo Silvestre 1 kg, Flor de Laranjeira 1 kg e Extrato Aquoso de Própolis (113 KB).
 
+## V2.11 — SEO de produtos e IA
+- Dados estruturados `Product` (schema.org) para 10 produtos (4 méis, 5 derivados de própolis e o pólen, este a partir da V2.12.3), ligados à organização. Sem preço nem estoque, de propósito: a venda é por WhatsApp e não há preço público; não foram inventados dados.
+- `llms.txt` criado na raiz, com resumo da empresa, páginas e contatos.
+- `hero.jpg` reduzido de 113 KB para cerca de 80 KB (1200x900 → 1080x810, mesma proporção).
+- Versões: index.html V2.11, robots.txt e sitemap.xml V2.11 (script.js e style.css seguem V2.9).
+
 ## V2.12 — Fotos da trajetória e da seção "Nossa história"
 - `historia-2.jpg`: recorte de jornal da reportagem "Hobby, o mel virou um grande negócio" (marco 2005, com a empresa já em operação; o jornal já fechou, uso autorizado pelo proprietário).
 - Marco "Nova sede / Hoje" substituído por três marcos: **Set 2015** (início das obras, `historia-4.jpg`), **Out 2016** (nova sede concluída, `historia-5.jpg`) e **2021** (ampliação, `historia-6.jpg`). O texto "mais de 360 m²" foi mantido no marco de 2021.
@@ -97,4 +103,5 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Fotos recortadas em 4:3 e comprimidas (100–250 KB). Alt descritivo e width/height em todas.
 - Marco S.I.F agora é **2016** e vem depois da sede nova. Marcos de 2002 (`historia-1.jpg`) e S.I.F (`historia-3.jpg`) seguem sem foto.
 - `produto-polen.jpg` adicionada (foto da embalagem de pólen, do site antigo), com `width`/`height` e alt.
-- Versões: index.html V2.12.2 (script.js e style.css seguem V2.9).
+- Dados estruturados `Product` do pólen adicionado (V2.12.3).
+- Versões: index.html V2.12.3 (script.js e style.css seguem V2.9).

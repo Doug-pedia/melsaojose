@@ -89,3 +89,11 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 
 ## V2.10 — Hero com o Melato novo
 - `hero.jpg` refeito com a foto atual do Mel de Melato (tampa vermelha), mantendo Silvestre 1 kg, Flor de Laranjeira 1 kg e Extrato Aquoso de Própolis (113 KB).
+
+## V2.12 — Fotos da trajetória e da seção "Nossa história"
+- `historia-1.jpg`: recorte de jornal da reportagem "Hobby, o mel virou um grande negócio" (marco 2002).
+- Marco "Nova sede / Hoje" substituído por três marcos: **Set 2015** (início das obras, `historia-4.jpg`), **Out 2016** (nova sede concluída, `historia-5.jpg`) e **2021** (ampliação, `historia-6.jpg`). O texto "mais de 360 m²" foi mantido no marco de 2021.
+- `sobre.jpg`: apicultor abrindo uma caixa de abelhas (foto de out/2016).
+- Fotos recortadas em 4:3 e comprimidas (100–250 KB). Alt descritivo e width/height em todas.
+- Marcos de 2005 e S.I.F seguem sem foto (`historia-2.jpg` e `historia-3.jpg` pendentes).
+- Versões: index.html V2.12 (script.js e style.css seguem V2.9).

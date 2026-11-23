@@ -86,3 +86,6 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Nome dos arquivos: `produto-tamanho-lado.jpg` (ex.: `silvestre-250-verso.jpg`). Sem JavaScript, o card mostra a foto padrão normalmente.
 - Removidos os arquivos antigos `produto-silvestre/laranjeira/jatai/melato(.verso).jpg`, substituídos pelos novos.
 - Não há foto do verso do 5 kg nem do Silvestre 1 kg em pote.
+
+## V2.10 — Hero com o Melato novo
+- `hero.jpg` refeito com a foto atual do Mel de Melato (tampa vermelha), mantendo Silvestre 1 kg, Flor de Laranjeira 1 kg e Extrato Aquoso de Própolis (113 KB).

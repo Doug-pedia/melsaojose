@@ -1,6 +1,6 @@
-/* Site Mel São José - style.css V2.2 */
+/* Site Mel São José - style.css V2.3 */
 :root{
-  --ambar:#C98A1B; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
+  --ambar:#C98A1B; --ambar-btn:#9A6508; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
   --creme:#FFF8E7; --marrom:#3B2A12; --texto:#4A3A24; --branco:#fff;
   --raio:18px; --sombra:0 8px 28px rgba(59,42,18,.10); --sombra-forte:0 14px 36px rgba(59,42,18,.18);
   --favo:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50V16L28 0l28 16v34zM28 100L0 84V66l28-16 28 16v18z' fill='none' stroke='%23C98A1B' stroke-opacity='.16' stroke-width='2'/%3E%3C/svg%3E");
@@ -27,8 +27,8 @@ a{color:inherit}
 .menu-btn{display:none;background:none;border:0;font-size:1.7rem;cursor:pointer;color:var(--marrom)}
 
 /* Botões */
-.btn{display:inline-block;background:var(--ambar);color:#fff;padding:14px 28px;border-radius:999px;font-weight:800;text-decoration:none;transition:.2s;border:2px solid var(--ambar);box-shadow:0 6px 16px rgba(201,138,27,.3);cursor:pointer}
-.btn:hover{background:var(--ambar-esc);border-color:var(--ambar-esc);transform:translateY(-2px)}
+.btn{display:inline-block;background:var(--ambar-btn);color:#fff;padding:14px 28px;border-radius:999px;font-weight:800;text-decoration:none;transition:.2s;border:2px solid var(--ambar-btn);box-shadow:0 6px 16px rgba(201,138,27,.3);cursor:pointer}
+.btn:hover{background:#7A4F05;border-color:#7A4F05;transform:translateY(-2px)}
 .btn-claro{background:transparent;color:var(--ambar-esc);box-shadow:none}
 .btn-claro:hover{color:#fff}
 .btn-branco{background:#fff;color:var(--ambar-esc);border-color:#fff;box-shadow:none}
@@ -36,7 +36,7 @@ a{color:inherit}
 .btn-pequeno{padding:9px 20px;font-size:.93rem;box-shadow:none}
 
 /* Textos de apoio */
-.eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;color:var(--ambar);margin-bottom:12px}
+.eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;color:var(--ambar-btn);margin-bottom:12px}
 .eyebrow.claro{color:var(--mel)}
 h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .centro{text-align:center}
@@ -77,7 +77,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .duas-col{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:center}
 .duas-col p{margin-bottom:14px}
 .sobre-img{position:relative}
-.badge{position:absolute;right:-18px;bottom:26px;background:var(--ambar);color:#fff;border-radius:var(--raio);padding:16px 22px;text-align:center;box-shadow:var(--sombra-forte);line-height:1.1}
+.badge{position:absolute;right:-18px;bottom:26px;background:var(--ambar-btn);color:#fff;border-radius:var(--raio);padding:16px 22px;text-align:center;box-shadow:var(--sombra-forte);line-height:1.1}
 .badge strong{display:block;font-family:'Lora',serif;font-size:2.1rem}
 .badge span{font-size:.82rem;font-weight:700}
 .valores{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
@@ -88,7 +88,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .filtros{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
 .filtro{font:inherit;font-weight:800;font-size:.93rem;background:#fff;color:var(--ambar-esc);border:2px solid #f0dca6;padding:9px 20px;border-radius:999px;cursor:pointer;transition:.2s}
 .filtro:hover{border-color:var(--ambar)}
-.filtro.ativo{background:var(--ambar);border-color:var(--ambar);color:#fff}
+.filtro.ativo{background:var(--ambar-btn);border-color:var(--ambar-btn);color:#fff}
 
 /* Cards de produto */
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px}
@@ -104,7 +104,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .chips li{background:#FFF1C9;color:var(--ambar-esc);font-weight:800;font-size:.78rem;padding:4px 11px;border-radius:999px}
 
 /* Atacado */
-.atacado{margin-top:48px;background:linear-gradient(120deg,var(--ambar) 0%,#E0A12A 100%);border-radius:var(--raio);padding:32px 38px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;box-shadow:var(--sombra-forte)}
+.atacado{margin-top:48px;background:linear-gradient(120deg,#8A5A06 0%,#B07510 100%);border-radius:var(--raio);padding:32px 38px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;box-shadow:var(--sombra-forte)}
 .atacado h3{color:#fff;font-size:1.5rem;margin-bottom:6px}
 .atacado p{color:#fff8e7;max-width:520px}
 
@@ -171,7 +171,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .marco:nth-child(even) .marco-foto{order:3}
 .marco:nth-child(even) .marco-texto{order:1;text-align:right}
 .marco-ponto{order:2}
-.marco-ano{display:inline-block;background:var(--ambar);color:#fff;font-family:'Lora',serif;font-weight:700;font-size:1.3rem;padding:4px 18px;border-radius:999px;margin-bottom:10px}
+.marco-ano{display:inline-block;background:var(--ambar-btn);color:#fff;font-family:'Lora',serif;font-weight:700;font-size:1.3rem;padding:4px 18px;border-radius:999px;margin-bottom:10px}
 .marco-texto h3{font-size:1.45rem;margin-bottom:8px}
 @media(max-width:900px){
   .linha-tempo::before{left:14px}

@@ -47,3 +47,11 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - `politica-de-privacidade.html` (linkada no rodapé) e `404.html`.
 - `assets/og-image.jpg`: prévia ao compartilhar o link. Gerada a partir do `hero.jpg`; troque por uma imagem final 1200x630 quando tiver as fotos.
 - Se um dia incluir Google Analytics, pixel ou formulários, atualize a Política de Privacidade.
+
+## V2.3 — Desempenho e acessibilidade
+- Fontes do Google carregadas sem bloquear a renderização (`display=swap`, só os pesos usados).
+- Imagens com largura/altura e carregamento preguiçoso; `hero.jpg` otimizada (960x720).
+- Filtros de produtos com `aria-pressed` (sem `role` inválido). Ícone da aba provisório (emoji) até a logo chegar.
+- Regras para novas fotos: JPG até ~120 KB cada, largura máxima 1000 px para fotos grandes (topo/trajetória) e 600 px para produtos.
+- Erros 404 no console do navegador vêm das fotos que ainda não foram enviadas (sobre, trajetória, pólen, logo) e somem quando elas forem adicionadas.
+- "Ciclos de vida de cache" do Lighthouse não dá para alterar no GitHub Pages (o cache é de 10 min). Seria preciso um CDN, como o Cloudflare.

@@ -74,3 +74,7 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Logo oficial adicionada em `assets/logo.png` (360 px de largura, 13 KB) e exibida no topo ao lado do nome, nas páginas inicial, de privacidade e 404.
 - Ícone da aba (`assets/favicon.png`, 256x256) agora usa a logo, no lugar do emoji provisório.
 - Altura da logo no cabeçalho de 44 para 52 px, para ficar legível.
+
+## V2.8 — Fotos do Melato e da Própolis Verde
+- Atualizadas `produto-melato.jpg` (frente) e `produto-propolis-verde.jpg` (frasco + caixa).
+- Adicionada `produto-melato-verso.jpg` (verso, com tabela nutricional), guardada para uma futura galeria; ainda não é exibida no site.

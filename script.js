@@ -1,4 +1,4 @@
-// Site Mel São José - script.js V2.2
+// Site Mel São José - script.js V2.3
 const btn = document.querySelector('.menu-btn');
 const menu = document.getElementById('menu');
 btn.addEventListener('click', () => {
@@ -18,8 +18,8 @@ aoRolar(); window.addEventListener('scroll', aoRolar, {passive:true});
 
 // Filtros de produtos
 document.querySelectorAll('.filtro').forEach(f => f.addEventListener('click', () => {
-  document.querySelectorAll('.filtro').forEach(x => x.classList.remove('ativo'));
-  f.classList.add('ativo');
+  document.querySelectorAll('.filtro').forEach(x => { x.classList.remove('ativo'); x.setAttribute('aria-pressed','false'); });
+  f.classList.add('ativo'); f.setAttribute('aria-pressed','true');
   const alvo = f.dataset.filtro;
   document.querySelectorAll('#grade-produtos .card').forEach(c => {
     c.hidden = !(alvo === 'todos' || c.dataset.cat === alvo);

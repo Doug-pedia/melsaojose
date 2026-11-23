@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- Site Mel São José - V2.2 -->
+<!-- Site Mel São José - V2.3 -->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mel São José | Mel e produtos apícolas em Maringá-PR</title>
   <meta name="description" content="Casa do Mel São José, Maringá-PR: mel e produtos apícolas desde 2002, com Inspeção Federal (S.I.F).">
-  <link rel="icon" href="assets/logo.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8D%AF%3C/text%3E%3C/svg%3E">
   <link rel="canonical" href="https://melsaojose.com.br/">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#C98A1B">
@@ -32,8 +32,7 @@
       "alternateName": "Casa do Mel São José",
       "legalName": "Indústria e Comércio de Produtos Apícola São José Ltda",
       "url": "https://melsaojose.com.br/",
-      "logo": "https://melsaojose.com.br/assets/logo.png",
-      "image": "https://melsaojose.com.br/assets/og-image.jpg",
+         "image": "https://melsaojose.com.br/assets/og-image.jpg",
       "foundingDate": "2002",
       "taxID": "22.529.548/0001-66",
       "description": "Mel e produtos apícolas desde 2002, em Maringá-PR, com Inspeção Federal (S.I.F).",
@@ -76,7 +75,8 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Nunito:wght@400;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Nunito:wght@400;700;800&display=swap"></noscript>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -118,7 +118,7 @@
       <div class="hero-visual">
         <div class="hex hex-1"></div><div class="hex hex-2"></div>
         <div class="foto hero-img" data-rotulo="Foto principal">
-          <img src="assets/hero.jpg" alt="Produtos Mel São José" onerror="this.remove()">
+          <img src="assets/hero.jpg" width="960" height="720" decoding="async" fetchpriority="high" alt="Produtos Mel São José" onerror="this.remove()">
         </div>
       </div>
     </div>
@@ -220,17 +220,17 @@
       <h2 class="centro">Nossos produtos</h2>
       <p class="centro sub">Escolha o seu preferido. Para pedidos em quantidade, é só chamar no WhatsApp.</p>
 
-      <div class="filtros" role="tablist">
-        <button class="filtro ativo" data-filtro="todos">Todos</button>
-        <button class="filtro" data-filtro="meis">Méis</button>
-        <button class="filtro" data-filtro="propolis">Própolis e derivados</button>
-        <button class="filtro" data-filtro="outros">Outros</button>
+      <div class="filtros">
+        <button class="filtro ativo" data-filtro="todos" aria-pressed="true">Todos</button>
+        <button class="filtro" data-filtro="meis" aria-pressed="false">Méis</button>
+        <button class="filtro" data-filtro="propolis" aria-pressed="false">Própolis e derivados</button>
+        <button class="filtro" data-filtro="outros" aria-pressed="false">Outros</button>
       </div>
 
       <div class="cards" id="grade-produtos">
 <article class="card reveal" data-cat="meis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-silvestre.jpg" alt="Mel Silvestre" onerror="this.remove()">
+            <img src="assets/produto-silvestre.jpg" width="260" height="425" decoding="async" loading="lazy" alt="Mel Silvestre" onerror="this.remove()">
           </div>
           <h3>Mel Silvestre</h3>
           <p>Mel de floradas variadas, com sabor marcante e equilibrado. Versátil para adoçar bebidas, pães, frutas e receitas do dia a dia.</p>
@@ -239,7 +239,7 @@
         </article>
 <article class="card reveal" data-cat="meis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-laranjeira.jpg" alt="Mel de Flor de Laranjeira" onerror="this.remove()">
+            <img src="assets/produto-laranjeira.jpg" width="230" height="430" decoding="async" loading="lazy" alt="Mel de Flor de Laranjeira" onerror="this.remove()">
           </div>
           <h3>Mel de Flor de Laranjeira</h3>
           <p>Mel claro, suave e de aroma delicado, que lembra as flores da laranjeira. Ideal para quem prefere um sabor mais leve.</p>
@@ -248,7 +248,7 @@
         </article>
 <article class="card reveal" data-cat="meis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-melato.jpg" alt="Mel de Melato de Cana-de-Açúcar" onerror="this.remove()">
+            <img src="assets/produto-melato.jpg" width="250" height="320" decoding="async" loading="lazy" alt="Mel de Melato de Cana-de-Açúcar" onerror="this.remove()">
           </div>
           <h3>Mel de Melato de Cana-de-Açúcar</h3>
           <p>Diferente dos demais méis, não é elaborado a partir de flores, mas da seiva da cana dos canaviais queimados ou cortados. É muito escuro e pouco viscoso, com forte aroma de rapadura.</p>
@@ -257,7 +257,7 @@
         </article>
 <article class="card reveal" data-cat="meis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-jatai.jpg" alt="Mel de Abelha sem Ferrão (Jataí)" onerror="this.remove()">
+            <img src="assets/produto-jatai.jpg" width="170" height="230" decoding="async" loading="lazy" alt="Mel de Abelha sem Ferrão (Jataí)" onerror="this.remove()">
           </div>
           <h3>Mel de Abelha sem Ferrão (Jataí)</h3>
           <p>Mel da abelha nativa Jataí, de sabor delicado e característico.</p>
@@ -266,7 +266,7 @@
         </article>
 <article class="card reveal" data-cat="propolis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-propolis-marrom.jpg" alt="Extrato de Própolis Marrom" onerror="this.remove()">
+            <img src="assets/produto-propolis-marrom.jpg" width="148" height="196" decoding="async" loading="lazy" alt="Extrato de Própolis Marrom" onerror="this.remove()">
           </div>
           <h3>Extrato de Própolis Marrom</h3>
           <p>Extrato de própolis marrom, produzido a partir da própolis das nossas colmeias.</p>
@@ -275,7 +275,7 @@
         </article>
 <article class="card reveal" data-cat="propolis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-propolis-verde.jpg" alt="Extrato de Própolis Verde" onerror="this.remove()">
+            <img src="assets/produto-propolis-verde.jpg" width="150" height="260" decoding="async" loading="lazy" alt="Extrato de Própolis Verde" onerror="this.remove()">
           </div>
           <h3>Extrato de Própolis Verde</h3>
           <p>Extrato de própolis verde, de coloração e aroma característicos.</p>
@@ -284,7 +284,7 @@
         </article>
 <article class="card reveal" data-cat="propolis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-propolis-aquoso.jpg" alt="Extrato Aquoso de Própolis Verde" onerror="this.remove()">
+            <img src="assets/produto-propolis-aquoso.jpg" width="160" height="260" decoding="async" loading="lazy" alt="Extrato Aquoso de Própolis Verde" onerror="this.remove()">
           </div>
           <h3>Extrato Aquoso de Própolis Verde</h3>
           <p>Extrato de própolis verde em base aquosa, sem álcool. Embalagem com conta-gotas.</p>
@@ -293,7 +293,7 @@
         </article>
 <article class="card reveal" data-cat="propolis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-spray.jpg" alt="Spray de Mel e Extrato de Própolis" onerror="this.remove()">
+            <img src="assets/produto-spray.jpg" width="160" height="212" decoding="async" loading="lazy" alt="Spray de Mel e Extrato de Própolis" onerror="this.remove()">
           </div>
           <h3>Spray de Mel e Extrato de Própolis</h3>
           <p>Spray de mel com extrato de própolis, nos sabores eucalipto e copaíba e gengibre e romã.</p>
@@ -302,7 +302,7 @@
         </article>
 <article class="card reveal" data-cat="propolis">
           <div class="foto foto-card" data-rotulo="Foto do produto">
-            <img src="assets/produto-composto.jpg" alt="Composto de Mel e Extrato de Própolis" onerror="this.remove()">
+            <img src="assets/produto-composto.jpg" width="411" height="215" decoding="async" loading="lazy" alt="Composto de Mel e Extrato de Própolis" onerror="this.remove()">
           </div>
           <h3>Composto de Mel e Extrato de Própolis</h3>
           <p>Composto de mel com extrato de própolis, nos sabores gengibre e romã e eucalipto e romã.</p>

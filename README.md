@@ -60,4 +60,4 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 ## V2.4 — Fotos originais dos produtos
 - Substituídas as fotos recortadas do catálogo pelas fotos originais: Mel Silvestre (1 kg), Flor da Laranjeira (1 kg), Melato de Cana (500 g), Jataí (200 g) e Extrato Aquoso de Própolis.
 - Imagens recortadas automaticamente (sem margem branca), redimensionadas para 640 px de altura e comprimidas (~30–45 KB cada).
-- Ainda são recortes do catálogo: própolis marrom, própolis verde, spray e composto. Pólen e logo seguem pendentes.
+- Também trocados: própolis marrom, própolis verde (caixas), spray (2 sabores) e composto (2 potes de 280 g). Pólen e logo seguem pendentes.

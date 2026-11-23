@@ -1,4 +1,4 @@
-/* Site Mel São José - style.css V2.4 */
+/* Site Mel São José - style.css V2.7 */
 :root{
   --ambar:#C98A1B; --ambar-btn:#9A6508; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
   --creme:#FFF8E7; --marrom:#3B2A12; --texto:#4A3A24; --branco:#fff;
@@ -20,7 +20,7 @@ a{color:inherit}
 .topo.rolou{border-color:#f0e2bd;box-shadow:0 4px 18px rgba(59,42,18,.08)}
 .topo-in{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
 .marca{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Lora',serif;font-weight:700;font-size:1.3rem;color:var(--marrom)}
-.marca-logo{height:44px;width:auto}
+.marca-logo{height:52px;width:auto}
 .menu{display:flex;align-items:center;gap:26px}
 .menu a{text-decoration:none;font-weight:700;font-size:.97rem}
 .menu a:not(.btn):hover{color:var(--ambar-esc)}

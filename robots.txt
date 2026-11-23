@@ -1,0 +1,5 @@
+# Site Mel São José - robots.txt V2.2
+User-agent: *
+Disallow:
+
+Sitemap: https://melsaojose.com.br/sitemap.xml

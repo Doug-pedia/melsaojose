@@ -1,4 +1,4 @@
-# Site Mel São José - robots.txt V2.2
+# Site Mel São José - robots.txt V2.11
 User-agent: *
 Disallow:
 

@@ -89,3 +89,9 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 
 ## V2.10 — Hero com o Melato novo
 - `hero.jpg` refeito com a foto atual do Mel de Melato (tampa vermelha), mantendo Silvestre 1 kg, Flor de Laranjeira 1 kg e Extrato Aquoso de Própolis (113 KB).
+
+## V2.11 — SEO de produtos e IA
+- Dados estruturados `Product` (schema.org) para 9 produtos (4 méis e 5 derivados de própolis), ligados à organização. Sem preço nem estoque, de propósito: a venda é por WhatsApp e não há preço público; não foram inventados dados. O pólen ficou de fora (sem foto).
+- `llms.txt` criado na raiz, com resumo da empresa, páginas e contatos.
+- `hero.jpg` reduzido de 113 KB para cerca de 80 KB (1200x900 → 1080x810, mesma proporção).
+- Versões: index.html V2.11, robots.txt e sitemap.xml V2.11 (script.js e style.css seguem V2.9).

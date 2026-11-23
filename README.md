@@ -78,3 +78,11 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 ## V2.8 — Fotos do Melato e da Própolis Verde
 - Atualizadas `produto-melato.jpg` (frente) e `produto-propolis-verde.jpg` (frasco + caixa).
 - Adicionada `produto-melato-verso.jpg` (verso, com tabela nutricional), guardada para uma futura galeria; ainda não é exibida no site.
+
+## V2.9 — Galeria por tamanho, com frente e verso
+- Cards do Mel Silvestre (250 g, 350 g, 500 g, 1 kg, 5 kg), Flor de Laranjeira (250 g, 500 g, 1 kg), Melato (500 g) e Jataí (200 g) agora têm botões de **tamanho** e de **Frente / Verso**.
+- Clicar na foto abre uma janela com a imagem ampliada (versos em 1100 px de altura, para ler a tabela nutricional). Fecha no × ou clicando fora.
+- Fotos carregam só quando o visitante clica (lazy); o balde de 5 kg não tem verso (botão desativado).
+- Nome dos arquivos: `produto-tamanho-lado.jpg` (ex.: `silvestre-250-verso.jpg`). Sem JavaScript, o card mostra a foto padrão normalmente.
+- Removidos os arquivos antigos `produto-silvestre/laranjeira/jatai/melato(.verso).jpg`, substituídos pelos novos.
+- Não há foto do verso do 5 kg nem do Silvestre 1 kg em pote.

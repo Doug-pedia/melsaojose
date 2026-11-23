@@ -1,4 +1,4 @@
-/* Site Mel São José - style.css V2.7 */
+/* Site Mel São José - style.css V2.9 */
 :root{
   --ambar:#C98A1B; --ambar-btn:#9A6508; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
   --creme:#FFF8E7; --marrom:#3B2A12; --texto:#4A3A24; --branco:#fff;
@@ -194,3 +194,18 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .erro404{text-align:center;padding:110px 0}
 .erro404 .num{font-family:'Lora',serif;font-size:clamp(4rem,14vw,8rem);color:var(--ambar);line-height:1}
 .erro404 p{margin:12px 0 28px}
+
+/* V2.9 - Galeria dos produtos */
+.zoom{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:280px;background:none;border:0;padding:0;cursor:zoom-in}
+.galeria-ctl{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;width:calc(100% - 44px);margin:0 22px 4px}
+.galeria-ctl[hidden],.g-tam[hidden]{display:none}
+.g-tam,.g-lado{display:flex;flex-wrap:wrap;gap:6px}
+.g-bt{font:inherit;font-weight:800;font-size:.78rem;padding:5px 12px;border-radius:999px;border:1.5px solid var(--ambar);background:#fff;color:var(--ambar-esc);cursor:pointer;transition:.2s}
+.g-bt[aria-pressed="true"]{background:var(--ambar-btn);border-color:var(--ambar-btn);color:#fff}
+.g-bt:disabled{opacity:.4;cursor:not-allowed}
+.g-bt:focus-visible,.zoom:focus-visible{outline:3px solid var(--ambar-esc);outline-offset:2px}
+.g-lado{margin-left:auto}
+dialog#zoom-dlg{margin:auto;border:0;border-radius:16px;padding:12px;max-width:94vw;background:#fff;overflow:auto}
+dialog#zoom-dlg::backdrop{background:rgba(40,25,5,.72)}
+dialog#zoom-dlg img{display:block;max-width:100%;max-height:86vh;width:auto;height:auto}
+.zoom-fechar{position:absolute;top:6px;right:8px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.9);font-size:1.5rem;line-height:1;cursor:pointer;color:var(--marrom)}

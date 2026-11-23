@@ -1,4 +1,4 @@
-// Site Mel São José - script.js V2.3
+// Site Mel São José - script.js V2.9
 const btn = document.querySelector('.menu-btn');
 const menu = document.getElementById('menu');
 btn.addEventListener('click', () => {
@@ -34,3 +34,42 @@ if ('IntersectionObserver' in window) {
   }), {threshold: .12});
   itens.forEach(i => io.observe(i));
 } else { itens.forEach(i => i.classList.add('visivel')); }
+
+// Galeria dos produtos: tamanho + frente/verso
+document.querySelectorAll('.galeria-ctl').forEach(ctl => {
+  const card = ctl.closest('.card');
+  const img = card.querySelector('.foto-card img');
+  const nome = ctl.dataset.nome;
+  const tams = [...ctl.querySelectorAll('.g-tam .g-bt')];
+  const lados = [...ctl.querySelectorAll('.g-lado .g-bt')];
+  let tam = tams.find(b => b.getAttribute('aria-pressed') === 'true') || tams[0];
+  let lado = 'f';
+  const mostrar = () => {
+    const temVerso = !!tam.dataset.v;
+    if (!temVerso) lado = 'f';
+    const vb = lados.find(b => b.dataset.lado === 'v');
+    vb.disabled = !temVerso;
+    img.src = tam.dataset[lado];
+    img.width = tam.dataset[lado + 'w'];
+    img.height = tam.dataset[lado + 'h'];
+    img.alt = nome + ', ' + tam.textContent + ' (' + (lado === 'f' ? 'frente' : 'verso') + ')';
+    tams.forEach(b => b.setAttribute('aria-pressed', b === tam));
+    lados.forEach(b => b.setAttribute('aria-pressed', b.dataset.lado === lado));
+  };
+  tams.forEach(b => b.addEventListener('click', () => { tam = b; mostrar(); }));
+  lados.forEach(b => b.addEventListener('click', () => { if (!b.disabled) { lado = b.dataset.lado; mostrar(); } }));
+  ctl.hidden = false;
+  mostrar();
+});
+
+// Ampliar foto
+const dlg = document.getElementById('zoom-dlg');
+if (dlg && dlg.showModal) {
+  document.querySelectorAll('.zoom').forEach(z => z.addEventListener('click', () => {
+    const i = z.querySelector('img');
+    const g = dlg.querySelector('img');
+    g.src = i.src; g.alt = i.alt;
+    dlg.showModal();
+  }));
+  dlg.addEventListener('click', e => { if (e.target === dlg || e.target.classList.contains('zoom-fechar')) dlg.close(); });
+}

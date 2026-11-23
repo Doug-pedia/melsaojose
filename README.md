@@ -105,3 +105,8 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - `produto-polen.jpg` adicionada (foto da embalagem de pólen, do site antigo), com `width`/`height` e alt.
 - Dados estruturados `Product` do pólen adicionado (V2.12.3).
 - Versões: index.html V2.12.3 (script.js e style.css seguem V2.9).
+
+## V2.12.4 — S.I.F junto com a nova sede
+- A foto da conclusão da sede (out/2016) é também a foto do S.I.F; os dois marcos viraram um só: **2016 — Nova sede e Inspeção Federal**. O mês do S.I.F não foi informado, por isso o texto diz só "no mesmo ano".
+- Removido o marco separado do S.I.F (e a pendência de `historia-3.jpg`). Para voltar a dois marcos, bastaria ter uma foto própria do S.I.F.
+- index.html V2.12.4.

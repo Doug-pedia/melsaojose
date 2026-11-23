@@ -96,4 +96,5 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - `sobre.jpg`: apicultor abrindo uma caixa de abelhas (foto de out/2016).
 - Fotos recortadas em 4:3 e comprimidas (100–250 KB). Alt descritivo e width/height em todas.
 - Marco S.I.F agora é **2016** e vem depois da sede nova. Marcos de 2002 (`historia-1.jpg`) e S.I.F (`historia-3.jpg`) seguem sem foto.
-- Versões: index.html V2.12.1 (script.js e style.css seguem V2.9).
+- `produto-polen.jpg` adicionada (foto da embalagem de pólen, do site antigo), com `width`/`height` e alt.
+- Versões: index.html V2.12.2 (script.js e style.css seguem V2.9).

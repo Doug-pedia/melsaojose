@@ -110,3 +110,8 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - A foto da conclusão da sede (out/2016) é também a foto do S.I.F; os dois marcos viraram um só: **2016 — Nova sede e Inspeção Federal**. O mês do S.I.F não foi informado, por isso o texto diz só "no mesmo ano".
 - Removido o marco separado do S.I.F (e a pendência de `historia-3.jpg`). Para voltar a dois marcos, bastaria ter uma foto própria do S.I.F.
 - index.html V2.12.4.
+
+## V2.12.5 — Medidas corrigidas
+- Antiga fábrica: edícula de três cômodos com **40 m²**. Nova sede (2016): **347,14 m²** de área útil. Ampliação (2021): **242,90 m²**. Total: 347,14 + 242,90 = 590,04 m², escrito no site como "cerca de 590 m²".
+- Substitui o "mais de 360 m²" que estava no site (seção Nossa história e marco de 2021).
+- index.html V2.12.5.

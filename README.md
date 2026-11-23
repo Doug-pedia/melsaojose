@@ -65,3 +65,7 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 
 ## V2.5 — Nova imagem do topo (hero)
 - `assets/hero.jpg` refeita (1200x900) com as fotos originais: Mel Silvestre, Flor da Laranjeira, Melato e Extrato Aquoso de Própolis (sem álcool), sobre o fundo dourado do site.
+
+
+## V2.6 — Localização
+- O card de endereço em Contato agora abre a ficha da empresa no Google Maps (Mel São José), em vez de uma busca pelo endereço.

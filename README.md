@@ -115,3 +115,9 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Antiga fábrica: edícula de três cômodos com **40 m²**. Nova sede (2016): **347,14 m²** de área útil. Ampliação (2021): **242,90 m²**. Total: 347,14 + 242,90 = 590,04 m², escrito no site como "cerca de 590 m²".
 - Substitui o "mais de 360 m²" que estava no site (seção Nossa história e marco de 2021).
 - index.html V2.12.5.
+
+## V2.12.6 — Imagem de compartilhamento (WhatsApp, redes)
+- `og-image.jpg` (montagem antiga, com produtos desatualizados) substituída por `og-image-v2.jpg` (1200x630, 70 KB), feita da foto atual dos produtos.
+- O arquivo mudou de nome de propósito: o WhatsApp guarda a prévia pelo endereço da imagem; com nome novo ele busca de novo.
+- Adicionado `twitter:image`. Também atualizado o `image` do JSON-LD da organização.
+- index.html V2.12.6.

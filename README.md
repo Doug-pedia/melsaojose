@@ -121,3 +121,8 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - O arquivo mudou de nome de propósito: o WhatsApp guarda a prévia pelo endereço da imagem; com nome novo ele busca de novo.
 - Adicionado `twitter:image`. Também atualizado o `image` do JSON-LD da organização.
 - index.html V2.12.6.
+
+## V2.12.7 — Descrição do site (Google e prévia de links)
+- `description` e `og:description`: "Mel puro, própolis e pólen produzidos em Maringá-PR desde 2002, com Inspeção Federal (S.I.F). Para o seu dia a dia, mercados e revendedores." (140 caracteres, cabe inteira na prévia do WhatsApp e no Google).
+- Descrição da organização (JSON-LD) ampliada, com o texto mais completo (própolis, pólen, mais de 20 anos).
+- index.html V2.12.7.

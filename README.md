@@ -126,3 +126,9 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - `description` e `og:description`: "Mel puro, própolis e pólen produzidos em Maringá-PR desde 2002, com Inspeção Federal (S.I.F). Para o seu dia a dia, mercados e revendedores." (140 caracteres, cabe inteira na prévia do WhatsApp e no Google).
 - Descrição da organização (JSON-LD) ampliada, com o texto mais completo (própolis, pólen, mais de 20 anos).
 - index.html V2.12.7.
+
+## V2.12.8 — Removido o `Product` dos dados estruturados
+- O Search Console marcou os 10 `Product` como "erro crítico": para o Google, um Product precisa de `offers` (com preço), `review` ou `aggregateRating`. O site não publica preço (a venda é por WhatsApp) e não tem avaliações, e esses dados não podem ser inventados.
+- Removidos os 10 `Product`. Ficam `Organization` e `WebSite`, que são válidos. Os produtos continuam visíveis no site em HTML normal.
+- Para voltar a ter resultado aprimorado de produto: publicar preço real no site (ou ligar cada produto à página da loja com preço), e então recriar o `Product` com `offers`.
+- index.html V2.12.8.

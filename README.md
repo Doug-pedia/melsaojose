@@ -132,3 +132,11 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Removidos os 10 `Product`. Ficam `Organization` e `WebSite`, que são válidos. Os produtos continuam visíveis no site em HTML normal.
 - Para voltar a ter resultado aprimorado de produto: publicar preço real no site (ou ligar cada produto à página da loja com preço), e então recriar o `Product` com `offers`.
 - index.html V2.12.8.
+
+## V2.13 — Palavras-chave no texto (SEO)
+- Não existe campo de palavras-chave que o Google use (a tag `meta keywords` é ignorada desde 2009). As palavras entram no texto visível.
+- Topo da página: "mel com Inspeção Federal (S.I.F)", "derivados apícolas", "Maringá-PR".
+- Produtos: subtítulo cita mel de laranjeira, silvestre, melato, abelha jataí, própolis e pólen apícola.
+- Atacado: "fornecedor de mel no atacado, em Maringá-PR e em todo o Paraná".
+- Texto alternativo das fotos dos méis com tamanho (igual ao que o JavaScript usa ao trocar de tamanho).
+- Sem repetição forçada de palavras. index.html V2.13.

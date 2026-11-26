@@ -140,3 +140,8 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Atacado: "fornecedor de mel no atacado, em Maringá-PR e em todo o Paraná".
 - Texto alternativo das fotos dos méis com tamanho (igual ao que o JavaScript usa ao trocar de tamanho).
 - Sem repetição forçada de palavras. index.html V2.13.
+
+## V2.13.1 — Corrige erro 404 no console (Lighthouse)
+- O marco de 2002 apontava para `assets/historia-1.jpg`, que não existe (ainda sem foto): gerava erro 404 no console e mostrava o quadro listrado "Foto de 2002".
+- Agora o marco de 2002 não tem imagem nem quadro: o espaço fica vazio no computador (para manter a linha do tempo alinhada) e some no celular. Quando houver uma foto, basta voltar o bloco da foto e salvar como `historia-1.jpg`.
+- index.html e style.css V2.13.1 (script.js segue V2.9).

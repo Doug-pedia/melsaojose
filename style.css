@@ -1,4 +1,4 @@
-/* Site Mel São José - style.css V2.9 */
+/* Site Mel São José - style.css V2.13.1 */
 :root{
   --ambar:#C98A1B; --ambar-btn:#9A6508; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
   --creme:#FFF8E7; --marrom:#3B2A12; --texto:#4A3A24; --branco:#fff;
@@ -171,6 +171,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 .marco:nth-child(even) .marco-foto{order:3}
 .marco:nth-child(even) .marco-texto{order:1;text-align:right}
 .marco-ponto{order:2}
+.marco-sem-foto{visibility:hidden}
 .marco-ano{display:inline-block;background:var(--ambar-btn);color:#fff;font-family:'Lora',serif;font-weight:700;font-size:1.3rem;padding:4px 18px;border-radius:999px;margin-bottom:10px}
 .marco-texto h3{font-size:1.45rem;margin-bottom:8px}
 @media(max-width:900px){
@@ -178,6 +179,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
   .marco{grid-template-columns:1fr;gap:16px;padding-left:44px;margin-bottom:44px}
   .marco-ponto{left:14px;top:14px;transform:translate(-50%,0)}
   .marco:nth-child(n) .marco-foto{order:2}
+  .marco-sem-foto{display:none}
   .marco:nth-child(n) .marco-texto{order:1;text-align:left}
 }
 

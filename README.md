@@ -145,3 +145,7 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - O marco de 2002 apontava para `assets/historia-1.jpg`, que não existe (ainda sem foto): gerava erro 404 no console e mostrava o quadro listrado "Foto de 2002".
 - Agora o marco de 2002 não tem imagem nem quadro: o espaço fica vazio no computador (para manter a linha do tempo alinhada) e some no celular. Quando houver uma foto, basta voltar o bloco da foto e salvar como `historia-1.jpg`.
 - index.html e style.css V2.13.1 (script.js segue V2.9).
+
+## V2.13.2 — Número no endereço
+- Endereço agora: "Estrada Zauna, km 2, (n° 1691) Gleba Ribeirão Sarandi · Maringá-PR · CEP 87047-773", em todo o site: index.html (contato, rodapé e dados estruturados), 404.html, política de privacidade e llms.txt.
+- index.html, 404.html, politica-de-privacidade.html e llms.txt em V2.13.2.

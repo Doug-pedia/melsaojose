@@ -1,5 +1,5 @@
 # Mel São José (Casa do Mel São José)
-<!-- llms.txt V2.11 -->
+<!-- llms.txt V2.13.2 -->
 
 > Produtora de mel e derivados apícolas em Maringá-PR, desde 2002, com Inspeção Federal (S.I.F). Atende consumidores, mercados e revendedores.
 
@@ -10,5 +10,5 @@
 ## Contato
 - WhatsApp: +55 44 99892-2039
 - E-mail: sac@melsaojose.com.br
-- Endereço: Estrada Zauna, km 2, Gleba Ribeirão Sarandi, Maringá-PR, 87047-773
+- Endereço: Estrada Zauna, km 2, (n° 1691) Gleba Ribeirão Sarandi, Maringá-PR, 87047-773
 - Loja online: https://melsaojose.lojaintegrada.com.br

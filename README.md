@@ -140,3 +140,7 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - Atacado: "fornecedor de mel no atacado, em Maringá-PR e em todo o Paraná".
 - Texto alternativo das fotos dos méis com tamanho (igual ao que o JavaScript usa ao trocar de tamanho).
 - Sem repetição forçada de palavras. index.html V2.13.
+
+## V2.13.2 — Número no endereço
+- Endereço agora: "Estrada Zauna, km 2, (n° 1691) Gleba Ribeirão Sarandi · Maringá-PR · CEP 87047-773", em todo o site: index.html (contato, rodapé e dados estruturados), 404.html, política de privacidade e llms.txt.
+- index.html, 404.html, politica-de-privacidade.html e llms.txt em V2.13.2.

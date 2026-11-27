@@ -1,4 +1,4 @@
-/* Site Mel São José - style.css V2.13.1 */
+/* Site Mel São José - style.css V2.14 */
 :root{
   --ambar:#C98A1B; --ambar-btn:#9A6508; --ambar-esc:#9A6508; --mel:#F2B632; --mel-claro:#FFE29A;
   --creme:#FFF8E7; --marrom:#3B2A12; --texto:#4A3A24; --branco:#fff;
@@ -128,8 +128,19 @@ h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:16px}
 /* Rodapé / WhatsApp */
 .rodape{background:#2a1d0b;color:#d9c9a3;text-align:center;padding:26px 0;font-size:.9rem}
 .rodape p{max-width:900px;margin:0 auto;padding:0 10px}
-.zap-flutuante{position:fixed;right:18px;bottom:18px;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:1.7rem;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.3);z-index:60;transition:.2s}
+.zap-caixa{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.zap-flutuante{position:relative;right:auto;bottom:auto;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:1.7rem;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.3);transition:.2s}
 .zap-flutuante:hover{transform:scale(1.08)}
+.zap-flutuante:focus-visible,.zap-item:focus-visible{outline:3px solid var(--marrom);outline-offset:3px}
+.zap-lista{background:#fff;border-radius:var(--raio);box-shadow:var(--sombra-forte);padding:12px;width:min(280px,calc(100vw - 36px))}
+.zap-lista[hidden]{display:none}
+.zap-titulo{font-weight:800;color:var(--marrom);font-size:.9rem;margin:2px 4px 8px}
+.zap-item{display:flex;align-items:center;gap:12px;padding:10px;border-radius:14px;text-decoration:none;color:var(--marrom)}
+.zap-item:hover{background:var(--creme)}
+.zap-foto{flex:0 0 44px;width:44px;height:44px;border-radius:50%;background:#25D366;color:#fff;font-weight:800;font-size:1.2rem;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.zap-foto img{width:100%;height:100%;object-fit:cover}
+.zap-nome{display:flex;flex-direction:column;line-height:1.25}
+.zap-nome small{color:var(--texto);font-size:.85rem}
 
 /* Animação de entrada */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}

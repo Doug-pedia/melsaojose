@@ -1,4 +1,4 @@
-// Site Mel São José - script.js V2.9
+// Site Mel São José - script.js V2.14
 const btn = document.querySelector('.menu-btn');
 const menu = document.getElementById('menu');
 btn.addEventListener('click', () => {
@@ -72,4 +72,19 @@ if (dlg && dlg.showModal) {
     dlg.showModal();
   }));
   dlg.addEventListener('click', e => { if (e.target === dlg || e.target.classList.contains('zoom-fechar')) dlg.close(); });
+}
+
+// Botão flutuante do WhatsApp: lista com os dois contatos (sem JS, abre direto o Douglas)
+const zapBtn = document.querySelector('.zap-flutuante');
+const zapLista = document.getElementById('zap-lista');
+if (zapBtn && zapLista) {
+  const fechar = () => { zapLista.hidden = true; zapBtn.setAttribute('aria-expanded', 'false'); };
+  zapBtn.addEventListener('click', e => {
+    e.preventDefault();
+    const abrir = zapLista.hidden;
+    zapLista.hidden = !abrir;
+    zapBtn.setAttribute('aria-expanded', String(abrir));
+  });
+  document.addEventListener('click', e => { if (!zapLista.hidden && !e.target.closest('.zap-caixa')) fechar(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !zapLista.hidden) { fechar(); zapBtn.focus(); } });
 }

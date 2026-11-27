@@ -158,3 +158,9 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 
 ## V2.14.1 — Ordem dos contatos
 - Na lista do botão do WhatsApp, Douglas aparece primeiro e Vanderlei depois. index.html V2.14.1.
+
+## V2.15 — Endereço do cadastro da Receita Federal
+- A Receita Federal mostra um endereço diferente (zona rural: "Lote 262, Conjunto Habitacional Iguatemi - Capelinha"). Para quem pesquisar por ele achar a empresa, o rodapé tem uma linha **visível**, em letra pequena, com a razão social e o endereço como constam no CNPJ, e explica que é o mesmo local.
+- No JSON-LD da organização, `alternateName` recebeu a razão social como está na Receita.
+- Decisão: **não** usar texto escondido (cor igual ao fundo, tamanho zero etc.). O Google trata texto oculto como técnica de spam e pode rebaixar o site.
+- index.html e style.css V2.15.

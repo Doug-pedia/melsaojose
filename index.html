@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Site Mel São José - V2.13.2 -->
+<!-- Site Mel São José - V2.14 -->
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -449,7 +449,21 @@
   </div>
 </footer>
 
-<a class="zap-flutuante" href="https://wa.me/5544998922039" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">💬</a>
+<div class="zap-caixa">
+  <div class="zap-lista" id="zap-lista" hidden>
+    <p class="zap-titulo">Fale com a gente no WhatsApp</p>
+    <a class="zap-item" href="https://wa.me/5544998161841?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mel%20S%C3%A3o%20Jos%C3%A9." target="_blank" rel="noopener">
+      <span class="zap-foto" aria-hidden="true">V</span>
+      <span class="zap-nome"><strong>Vanderlei</strong><small>(44) 9 9816-1841</small></span>
+    </a>
+    <a class="zap-item" href="https://wa.me/5544998922039?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mel%20S%C3%A3o%20Jos%C3%A9." target="_blank" rel="noopener">
+      <span class="zap-foto" aria-hidden="true">D</span>
+      <span class="zap-nome"><strong>Douglas</strong><small>(44) 9 9892-2039</small></span>
+    </a>
+  </div>
+  <!-- Sem JavaScript o botão abre direto o WhatsApp do Douglas. Com JavaScript, abre a lista acima. -->
+  <a class="zap-flutuante" href="https://wa.me/5544998922039" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp" aria-controls="zap-lista" aria-expanded="false">💬</a>
+</div>
 
 <dialog id="zoom-dlg" aria-label="Foto ampliada">
   <button type="button" class="zoom-fechar" aria-label="Fechar">×</button>

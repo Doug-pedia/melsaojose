@@ -151,7 +151,10 @@ Para adicionar mais marcos, copie um bloco `<div class="marco reveal">` em `inde
 - index.html, 404.html, politica-de-privacidade.html e llms.txt em V2.13.2.
 
 ## V2.14 — Botão flutuante do WhatsApp com os dois contatos
-- Ao tocar no botão abre uma lista com **Vanderlei (44) 9 9816-1841** e **Douglas (44) 9 9892-2039**, cada um com a mensagem pronta "Olá! Vim pelo site da Mel São José." Fecha tocando fora ou com Esc.
+- Ao tocar no botão abre uma lista com **Douglas (44) 9 9892-2039** e **Vanderlei (44) 9 9816-1841**, nessa ordem, cada um com a mensagem pronta "Olá! Vim pelo site da Mel São José." Fecha tocando fora ou com Esc.
 - Sem JavaScript, o botão continua abrindo direto o WhatsApp do Douglas.
 - Cada contato tem um círculo com a inicial (V e D). Para colocar a mini foto depois: salvar `assets/contato-vanderlei.jpg` e `assets/contato-douglas.jpg` (quadradas, 120x120 px) e trocar a letra por `<img src="..." alt="Vanderlei" width="44" height="44">` dentro de `.zap-foto`. O CSS já está pronto.
 - index.html, style.css e script.js em V2.14.
+
+## V2.14.1 — Ordem dos contatos
+- Na lista do botão do WhatsApp, Douglas aparece primeiro e Vanderlei depois. index.html V2.14.1.
